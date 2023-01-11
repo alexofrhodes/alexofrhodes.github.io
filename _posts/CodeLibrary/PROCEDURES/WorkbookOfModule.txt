@@ -1,0 +1,6 @@
+
+Function WorkbookOfModule(vbComp As VBComponent) As Workbook
+'@BlogPosted
+    Set WorkbookOfModule = WorkbookOfProject(vbComp.Collection.parent)
+End Function
+

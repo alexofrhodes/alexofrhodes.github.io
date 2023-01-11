@@ -1,0 +1,13 @@
+
+Public Function ActiveCodepaneWorkbook() As Workbook
+'@BlogPosted
+    On Error GoTo ErrorHandler
+    Dim WorkbookName As String
+    WorkbookName = Application.VBE.SelectedVBComponent.Collection.parent.fileName
+    WorkbookName = Right(WorkbookName, Len(WorkbookName) - InStrRev(WorkbookName, "\"))
+    Set ActiveCodepaneWorkbook = Workbooks(WorkbookName)
+    Exit Function
+ErrorHandler:
+    MsgBox "doesn't work on new-unsaved workbooks"
+End Function
+
