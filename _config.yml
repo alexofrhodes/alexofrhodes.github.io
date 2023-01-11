@@ -28,7 +28,7 @@ description: >-                      # used by seo meta and the atom feed
   A minimal, responsive, and powerful Jekyll theme for presenting professional writing.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: 'https://alexofrhodes.github.io/'
+url: 'https://alexofrhodes.github.io'
 
 github:
   username: alexofrhodes             # change to your github username
@@ -82,7 +82,7 @@ theme_mode:   # [light|dark]
 img_cdn: '' #'https://chirpy-img.netlify.app'
 
 # the avatar on sidebar, support local or CORS resources
-avatar: # 'assets\img\sidebar-alex.png'  #'/commons/avatar.jpg'
+avatar: '' # 'assets\img\sidebar-alex.png'  #'/commons/avatar.jpg'
 
 # boolean type, the global switch for ToC in posts.
 toc: true
