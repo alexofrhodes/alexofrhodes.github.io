@@ -1,5 +1,0 @@
-
-Function DataFilePartExtension(str As String)
-    DataFilePartNameExtension = Mid(str, InStrRev(str, ".") + 1)
-End Function
-
