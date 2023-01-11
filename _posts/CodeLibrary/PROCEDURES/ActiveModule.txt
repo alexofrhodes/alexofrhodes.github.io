@@ -1,7 +1,0 @@
-
-Public Function ActiveModule() As VBComponent
-'@BlogPosted
-'@AssignedModule F_Vbe_Modules
-    Set ActiveModule = Application.VBE.SelectedVBComponent
-End Function
-
